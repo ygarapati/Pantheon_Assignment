@@ -1,6 +1,6 @@
 # Pantheon Protocol Evaluation
 # Project Summary
-This project compares the performance of BBR, Copa, and Vivace congestion control protocols using the Pantheon framework under varied network scenarios.
+This project compares the performance of TCP BBR, PCC-Allegro, and QUIC Cubic congestion control protocols using the Pantheon framework under varied network scenarios.
 # Step 1: Install Pantheon
 git clone https://github.com/StanfordSNR/pantheon.git
 # Step 2: Install Dependencies
