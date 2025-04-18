@@ -1,6 +1,10 @@
 # Pantheon
 # Project Summary
 This project compares the performance of TCP BBR, PCC-Allegro, and QUIC Cubic congestion control protocols using the Pantheon framework under varied network scenarios.
+# System Requirements:
+Ubuntu/Linux OS
+Python 2.7.18
+# Steps To Install And Run Pantheon:
 # Step 1: Install Pantheon
 git clone https://github.com/StanfordSNR/pantheon.git
 # Step 2: Install Dependencies
@@ -23,4 +27,5 @@ A Report and Log File Will Be Created With the Scheme Name as we give In Place O
 src/wrappers/<cc>.py receiver port
 src/wrappers/<cc>.py sender port
 Needed to be run in different windows.
+Generate Plots And Graphs that are found in Data and Pantheon_Report.Pdf
 
