@@ -18,7 +18,7 @@ src/experiments/setup.py --setup --all
 src/experiments/test.py local --all
 # Step 6: Analyzing The Test Result
 src/analysis/analyze.py --data-dir DIR
-A Report and Log File Will Be Create With the Scheme Name we give In Place Of DIR
+A Report and Log File Will Be Created With the Scheme Name as we give In Place Of DIR.
 # Step 7: Running a single congestion control scheme
 src/wrappers/<cc>.py receiver port
 src/wrappers/<cc>.py sender port
